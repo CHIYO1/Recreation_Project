@@ -1,0 +1,31 @@
+/**index.wxss**/
+page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.swiper{
+  height:400rpx;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  height: 150rpx;
+  padding-top: 400rpx;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.container view{
+  height: 150rpx;
+  width:250rpx;
+  text-align: center;
+  line-height: 100rpx;
+  border-radius: 20%;
+}
+.container view:nth-child(1){
+  background-color: aqua;
+}
+.container view:nth-child(2){
+  background-color: aquamarine;
+}

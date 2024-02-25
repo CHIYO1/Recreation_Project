@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<navigation-bar  back="{{false}}" color="black" background="#FFF"></navigation-bar>
+
+<swiper class="swiper" indicator-dots="black">
+  <swiper-item>
+    <image src="/image/1.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="/image/2.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="/image/3.jpg"></image>
+  </swiper-item>
+</swiper>
+<view class="container">
+  <view>景点</view>
+  <view>美食</view>
+</view>
+
