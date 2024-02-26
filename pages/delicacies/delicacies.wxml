@@ -1,2 +1,4 @@
-<!--pages/delicacies/delicacies.wxml-->
-<text>pages/delicacies/delicacies.wxml</text>
+<view class="cc">
+  <image class="cc_image" src="/image/4.png"></image>
+</view>
+

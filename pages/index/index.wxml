@@ -13,7 +13,9 @@
   </swiper-item>
 </swiper>
 <view class="container">
-  <view>景点</view>
+  <view>
+    <navigator url="/pages/ch/ch" open-type="navigate">景点</navigator>
+  </view>
   <view>美食</view>
 </view>
 

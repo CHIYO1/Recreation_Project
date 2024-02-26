@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/Attractions/Attractions",
-    "pages/delicacies/delicacies"
+    "pages/delicacies/delicacies",
+    "pages/ch/ch"
   ],
   "window": {
     "navigationBarTextStyle": "black",
