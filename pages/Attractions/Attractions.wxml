@@ -1,2 +1,4 @@
 <!--pages/Attractions/Attractions.wxml-->
-<text>pages/Attractions/Attractions.wxml</text>
+<view class="cc">
+  <image class="cc_image" src="/image/4.png"></image>
+</view>

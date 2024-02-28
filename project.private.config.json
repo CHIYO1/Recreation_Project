@@ -9,14 +9,28 @@
       "list": [
         {
           "name": "",
+          "pathName": "pages/delicacies/delicacies",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
           "pathName": "pages/ch/ch",
           "query": "",
           "launchMode": "default",
           "scene": null
         },
         {
-          "name": "pages/delicacies/delicacies",
-          "pathName": "pages/delicacies/delicacies",
+          "name": "",
+          "pathName": "pages/Attractions/Attractions",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/Attractions_ex/Attractions_ex",
           "query": "",
           "launchMode": "default",
           "scene": null

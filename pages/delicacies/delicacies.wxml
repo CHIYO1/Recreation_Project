@@ -1,4 +1,5 @@
-<view class="cc">
-  <image class="cc_image" src="/image/4.png"></image>
-</view>
+<scroll-view class="container" scroll-y="">
 
+
+
+</scroll-view> 
