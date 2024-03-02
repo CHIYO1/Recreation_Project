@@ -1,21 +1,40 @@
 <!--index.wxml-->
-<navigation-bar  back="{{false}}" color="black" background="#FFF"></navigation-bar>
 
-<swiper class="swiper" indicator-dots="black">
-  <swiper-item>
-    <image src="/image/1.jpg"></image>
-  </swiper-item>
-  <swiper-item>
-    <image src="/image/2.jpg"></image>
-  </swiper-item>
-  <swiper-item>
-    <image src="/image/3.jpg"></image>
-  </swiper-item>
-</swiper>
 <view class="container">
-  <view>
-    <navigator url="/pages/ch/ch" open-type="navigate">景点</navigator>
+  <image src='/image/index_images/3.png'></image>
+  <view class='content'>
+    <text class="t1">食佐饭没，得闲饮茶</text>
+    <text class="t2">Welcome to Guangzhou</text>
+    <text class="t3">Would you explore natur paradise in the world, let's find the best</text>
+    <text class="t3">destination in world with us.</text>
+
+    <view class='con'>
+      <view class='navi'>
+        <navigator url="/pages/ch/ch">
+          <view class="n1">
+            <text class="tt">Living From</text>
+            <view class='ww'>
+              <text class='w'>景</text>
+              <text class='w'>点</text>
+            </view>
+            
+            <text class="tt">Going to</text>
+          </view>
+        </navigator>
+        <navigator url="/pages/delicacies/delicacies">
+          <view class="n1">
+            <text class="tt">Food</text>
+            <view class='ww'>
+              <text class='w'>美</text>
+              <text class='w'>食</text>
+            </view>
+            <text class="tt">Cook</text>
+          </view>
+        </navigator>
+      </view>
+    </view>
+
   </view>
-  <view>美食</view>
+  
 </view>
 

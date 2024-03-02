@@ -1,4 +1,28 @@
 /* pages/ch/ch.wxss */
+
+
+.navbar {
+  display: flex;
+  align-items: center;
+  height: 170rpx; 
+  background-color: #fafafa; 
+}
+
+.left-icon {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 30px; 
+  height: 30px; 
+  margin-right: 10px; 
+}
+
+
+
+
+
 .container{
   padding-top: 18%;
   height:650px;

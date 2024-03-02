@@ -1,31 +1,86 @@
 /**index.wxss**/
-page {
-  height: 100vh;
+.container{
+  width: 100%;
+  height: 1400rpx;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background-color: whitesmoke;
+}
+image{
+  position: absolute;
+  width: 100%;
+  height: 1400rpx;
+}
+.content{
+  padding-top: 350rpx;
+  position: absolute;
+  z-index: 1;
   display: flex;
   flex-direction: column;
+  align-items: center;    
+  vertical-align: center; 
 }
 
-.swiper{
-  height:400rpx;
+.t1{
+  font-size: 60rpx;
+  color: whitesmoke;
 }
-.container{
+
+.t2{
+  font-size: 50rpx;
+  color: whitesmoke;
+  padding-top: 10rpx;
+  padding-bottom: 10rpx;
+}
+
+.t3{
+  font-size: 25rpx;
+  color: whitesmoke;
+  padding-top: 10rpx;
+}
+
+.con{
+  padding-top: 200rpx;
+  width: 700rpx;
+}
+
+.navi{
+  background-color: rgb(43, 62, 70);
+  height: 250rpx;
+  width: 700rpx;
+  border-radius: 10%;
   display: flex;
   flex-direction: row;
-  height: 150rpx;
-  padding-top: 400rpx;
-  padding-left: 10%;
-  padding-right: 10%;
+  justify-content: space-between;
+  align-items: center;    
+  padding: 10rpx;
 }
-.container view{
-  height: 150rpx;
-  width:250rpx;
-  text-align: center;
-  line-height: 100rpx;
-  border-radius: 20%;
+
+.n1{
+  height: 200rpx;
+  width: 300rpx;
+  border-radius: 10%;
+  border: 2px solid rgb(231, 231, 231);
+  display: flex;
+  align-items: center;    
+  justify-content: center;  
+  text-align: center; 
 }
-.container view:nth-child(1){
-  background-color: aqua;
+
+.ww{
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
 }
-.container view:nth-child(2){
-  background-color: aquamarine;
+
+.w{
+  font-size: 50rpx;
+  color: rgb(112, 99, 98);
+  padding: 5%;
+}
+
+.tt{
+  font-size: 20rpx;
+  color: rgb(196, 195, 195);
 }

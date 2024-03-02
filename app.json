@@ -7,7 +7,6 @@
     "pages/Attractions_ex/Attractions_ex"
   ],
   "window": {
-    "navigationBarTextStyle": "black",
     "navigationStyle": "custom"
   },
   "style": "v2",
