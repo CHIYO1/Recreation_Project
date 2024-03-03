@@ -1,0 +1,11 @@
+<!--pages/delicacies_ex/delicacies_ex.wxml-->
+<view class="navbar">
+  <navigator class="left-icon" open-type="navigateBack">
+    <image class="icon" src="/image/icon/back.jpg"></image>
+  </navigator>
+  <navigator class="right-icon" url="/pages/index/index">
+    <image class="icon" src="/image/icon/home.jpg"></image>
+  </navigator>
+</view>
+
+<text>美食</text>

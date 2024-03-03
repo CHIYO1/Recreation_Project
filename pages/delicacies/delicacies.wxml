@@ -1,5 +1,42 @@
-<scroll-view class="container" scroll-y="">
+<view class="navbar">
+  <navigator class="left-icon" open-type="navigateBack">
+    <image class="icon" src="/image/icon/back.jpg"></image>
+  </navigator>
+  <navigator class="right-icon" url="/pages/index/index">
+    <image class="icon" src="/image/icon/home.jpg"></image>
+  </navigator>
+</view>
+<view class="bg">
 
-  <view>meishi</view>
+  <view class='container_text'>
+  <text class='t1'>What we eat a</text>
+  <text class='t1'>day in</text>
+  <text class='t1'>Guangzhou</text>
+</view>
 
-</scroll-view> 
+<scroll-view class='container_scroll' scroll-x>
+  <view class='c'>
+    <navigator class='food' url='/pages/delicacies_ex/delicacies_ex'>
+      <image  class='f_images' src='/image/food_images/Morning_Tea.png'></image>
+      <view class='t-tab'><text class='f-t-1'>Food</text></view>
+      <text class='f-t-2'>早茶</text>
+      <text class='f-t-3'>Morning Tea</text>
+    </navigator>
+    <navigator class='food' url='/pages/delicacies_ex/delicacies_ex'>
+      <image  class='f_images' src='/image/food_images/siroin.png'></image>
+      <view class='t-tab-2'><text class='f-t-4'>Food</text></view>
+      <text class='f-t-2'>牛腩</text>
+      <text class='f-t-3'>siroin</text>
+    </navigator>
+    <navigator class='food' url='/pages/delicacies_ex/delicacies_ex'>
+      <image  class='f_images' src='/image/food_images/roasted_wax.png'></image>
+      <view class='t-tab'><text class='f-t-1'>Food</text></view>
+      <text class='f-t-2'>广式烧腊</text>
+      <text class='f-t-3'>Cantonese style</text>
+      <text class='f-t-3'>roasted wax</text>
+    </navigator>
+  </view>
+</scroll-view>
+
+
+</view>

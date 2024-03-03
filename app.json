@@ -4,7 +4,8 @@
     "pages/Attractions/Attractions",
     "pages/delicacies/delicacies",
     "pages/ch/ch",
-    "pages/Attractions_ex/Attractions_ex"
+    "pages/Attractions_ex/Attractions_ex",
+    "pages/delicacies_ex/delicacies_ex"
   ],
   "window": {
     "navigationStyle": "custom"

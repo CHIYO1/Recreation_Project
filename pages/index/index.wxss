@@ -76,7 +76,7 @@ image{
 
 .w{
   font-size: 50rpx;
-  color: rgb(112, 99, 98);
+  color: rgb(196, 181, 180);
   padding: 5%;
 }
 
