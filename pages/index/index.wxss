@@ -23,15 +23,18 @@ image{
 }
 
 .t1{
-  font-size: 60rpx;
+  font-size: 50rpx;
+  font-weight:bold;
   color: whitesmoke;
 }
 
 .t2{
   font-size: 50rpx;
+  font-weight:bold;
   color: whitesmoke;
   padding-top: 10rpx;
   padding-bottom: 10rpx;
+  margin-bottom: 20rpx;
 }
 
 .t3{
@@ -75,12 +78,12 @@ image{
 }
 
 .w{
-  font-size: 50rpx;
-  color: rgb(196, 181, 180);
+  font-size: 45rpx;
+  color: #D9D9D9;
   padding: 5%;
 }
 
 .tt{
-  font-size: 20rpx;
+  font-size: 23rpx;
   color: rgb(196, 195, 195);
 }

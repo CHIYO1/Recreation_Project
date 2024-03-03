@@ -25,25 +25,8 @@
 <scroll-view class="containerS" scroll-y>
 
   <view bindtap="thLnyxy" class="containerA">
-  <image src="/image/yuan1.jpg" mode="aspectFit" class="container2"/>
+  <image src="/image/1.jpg" mode="aspectFit" class="container2"/>
   <text class="containerT"> 岭南印象园\n 开园时间:7:00\n 备注：XXXXXXXX</text></view>
-
-<view class="containerA">
-  <image src="/image/yuan2.jpg" mode="aspectFit" class="container2"/>
-  <text class="containerT"> 广州大学城\n 开园时间:8:30\n 备注：XXXXXXXX</text></view>
-
-  <view class="containerA">
-  <image src="/image/yuan3.jpg" mode="aspectFit" class="container2"/>
-  <text class="containerT"> 广州大学城\n 开园时间:8:30\n 备注：XXXXXXXX</text></view>
-
-  <view class="containerA">
-  <image src="/image/yuan4.jpg" mode="aspectFit" class="container2"/>
-  <text class="containerT"> 广州大学城\n 开园时间:8:30\n 备注：XXXXXXXX</text></view>
-
-  <view class="containerA">
-  <image src="/image/yuan1.jpg" mode="aspectFit" class="container2"/>
-  <text class="containerT"> 广州大学城\n 开园时间:8:30\n 备注：XXXXXXXX</text></view>
-
   
 </scroll-view>
 

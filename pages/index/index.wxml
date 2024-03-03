@@ -10,7 +10,7 @@
 
     <view class='con'>
       <view class='navi'>
-        <navigator url="/pages/ch/ch">
+        <navigator url="/pages/Attractions/Attractions">
           <view class="n1">
             <text class="tt">Living From</text>
             <view class='ww'>

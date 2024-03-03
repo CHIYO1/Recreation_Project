@@ -33,9 +33,9 @@ Page({
     })
   },
 
-  gotoys() {
+  gotoyx() {
     wx.navigateTo({
-      url: '/pages/area/ys/ys',
+      url: '/pages/area/yx/yx',
     })
   },
 

@@ -1,4 +1,12 @@
 <!--pages/Attractions_ex/Attractions_ex.wxml-->
+<view class="navbar">
+  <navigator class="left-icon" open-type="navigateBack">
+    <image class="icon" src="/image/icon/back.jpg"/>
+  </navigator>
+  <navigator class="right-icon" url="/pages/index/index">
+    <image class="icon" src="/image/icon/home.jpg"/>
+  </navigator>
+</view>
 
 <scroll-view class="container" scroll-y >
 

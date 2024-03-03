@@ -26,7 +26,7 @@
   display: flex;
   justify-content: space-around;
 }
-.container1 view:nth-child(1) {
+.container1 view:nth-child(3) {
   background-color: rgba(29, 138, 56, 0.582);
 }
 
