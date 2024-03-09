@@ -5,7 +5,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-    storeList:[]
+    storeList:[],
+    type: '',
   },
 
   /**
@@ -18,12 +19,23 @@ Page({
 
     if (selectedList) {
       this.setData({
+        type: type,
         storeList: selectedList,
       });
     } else {
-      console.error("Invalid store type");
+      console.error("Invalid store type:", type);
     }
   },
+
+  goToDetail: function(event) {
+    const type = this.data.type;
+    const id = event.currentTarget.dataset.id;
+    wx.navigateTo({
+      url: '/pages/delicacies_ex/delicacies_ex?type=' + type + '&id=' + id,
+    });
+  },
+
+
 
   /**
    * 生命周期函数--监听页面初次渲染完成

@@ -8,4 +8,38 @@
   </navigator>
 </view>
 
-<text>美食</text>
+<scroll-view class='container' scroll-y>
+
+  <view class='ph'>
+    <image class="ph-ima" src='{{storeDetail.image}}' mode="aspectFill"></image>
+  </view>
+
+  <view class="info">
+    <text class="info-t1">{{storeDetail.name}}</text>
+    <view class='score'>
+      <text class='info-t2'> 口味：{{storeDetail.taste_score}}  </text>
+      <text class='info-t2'> 环境：{{storeDetail.environment_score}}  </text>
+      <text class='info-t2'> 服务：{{storeDetail.serve_score}}  </text>
+    </view>
+
+    
+    <text class='info-t3'>电话 phone number: {{storeDetail.phone}}</text>
+    <view class='add'>
+      <text class='info-t3'>店铺地址：</text>
+      <view class='add-text'>
+        <text class='add-t1'>{{storeDetail.address}}</text>
+      </view>
+    </view>
+  </view>
+
+  <view class='comments'>
+    <view wx:for="{{comments}}" wx:key="index" class='comments-item'>
+      <image class="com-im" src='{{item.avatar}}' mode="aspectFill"></image>
+      <view class='user'>
+        <text class='user-name'>{{item.username}}</text>
+        <text class='com-t'>{{item.comment}}</text>
+      </view>
+    </view>
+  </view>
+
+</scroll-view>

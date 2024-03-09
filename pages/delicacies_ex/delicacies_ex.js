@@ -1,18 +1,38 @@
 // pages/delicacies_ex/delicacies_ex.js
+const app = getApp();
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    storeDetail: {}, // 存放店铺详情数据
+    comments: [] ,// 存放评论数据
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
+    console.log("传递的参数:", options);
 
+    const type = options.type;
+    const id = options.id;
+    const store = app.store_detail;
+
+    // 根据传入的类别和ID获取对应的店铺详情数据
+    const selectedStore = store[type].find(item => item.id == id);
+    if (selectedStore) {
+      this.setData({
+        storeDetail: selectedStore
+      });
+    } else {
+      console.error("Invalid store type or ID");
+    }
+
+    this.setData({
+      comments: app.Comments
+    });
   },
 
   /**

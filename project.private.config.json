@@ -9,6 +9,13 @@
       "list": [
         {
           "name": "",
+          "pathName": "pages/delicacies_ex/delicacies_ex",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
           "pathName": "pages/delicacies_stores/delicacies_stores",
           "query": "",
           "launchMode": "default",
@@ -17,13 +24,6 @@
         {
           "name": "",
           "pathName": "pages/delicacies/delicacies",
-          "query": "",
-          "launchMode": "default",
-          "scene": null
-        },
-        {
-          "name": "",
-          "pathName": "pages/ch/ch",
           "query": "",
           "launchMode": "default",
           "scene": null

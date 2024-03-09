@@ -1,2 +1,128 @@
 /* pages/delicacies_ex/delicacies_ex.wxss */
+.navbar {
+  background-color:#070b16; 
+}
 
+.container{
+  padding: 0%;
+  height:500px;
+  width:100%;
+  background-color: #0c1225;
+}
+
+.ph{
+  height: 400rpx;
+  margin-top: 2%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.ph-ima{
+  height: 100%;
+  width: 100%;
+  border-radius: 10%;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  margin-left: 2%;
+  margin-top: 4%;
+}
+
+.info-t1{
+  font-size: 45rpx;
+  color: #f2ece6;
+  letter-spacing: 5rpx;
+}
+
+.score{
+  background-color: #fff5e2;
+  display: flex;
+  flex-direction: row;
+  width: 370rpx;
+  height: 85rpx;
+  margin-top: 4%;
+  border-radius: 100rpx;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+.info-t2{
+  font-size: 25rpx;
+  margin-right: 5rpx;
+  color: #5d3628;
+  font-weight: bold;
+}
+
+.info-t3{
+  font-size: 37rpx;
+  color: #f2ece6;
+}
+
+.add{
+  display: flex;
+  flex-direction: row;
+  margin-top: 2%;
+  align-items: center;
+}
+
+.add-text{
+  background-color: #b7c6ef;
+  display: flex;
+  align-items: left;
+  height: 70rpx;
+  width: 400rpx;
+  align-items: center;
+  padding-left: 4%;
+  border-radius: 20rpx;
+}
+
+.add-t1{
+  color: #454b6f;
+  font-size: 35rpx;
+}
+
+.comments{
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+  margin-top: 7%;
+}
+
+.comments-item{
+  background-color: #93a1bc;
+  width: 100%;
+  height: 150rpx;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 7%;
+  border-radius: 40rpx;
+  align-items: center;
+}
+
+.com-im{
+  height: 100rpx;
+  width: 140rpx;
+  margin-left: 3%;
+  margin-right: 5%;
+  border-radius: 40rpx;
+}
+
+.user{
+  display: flex;
+  flex-direction: column;
+  height: 120rpx;
+  width: 450rpx;
+}
+
+.user-name{
+  color: #162547;
+  font-size: 25rpx;
+}
+
+.com-t{
+  color: #162547;
+  font-size: 35rpx;
+}
