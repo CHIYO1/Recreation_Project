@@ -1,9 +1,9 @@
 <view class="navbar">
   <navigator class="left-icon" open-type="navigateBack">
-    <image class="icon" src="/image/icon/back.jpg"/>
+    <image class="icon" src="/image/icon/back.png"/>
   </navigator>
   <navigator class="right-icon" url="/pages/index/index">
-    <image class="icon" src="/image/icon/home.jpg"/>
+    <image class="icon" src="/image/icon/home.png"/>
   </navigator>
 </view>
 

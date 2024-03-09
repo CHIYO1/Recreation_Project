@@ -15,7 +15,8 @@
     "pages/area/hd/hd",
     "pages/area/zc/zc",
     "pages/area/lw/lw",
-    "pages/area/ch/ch"
+    "pages/area/ch/ch",
+    "pages/delicacies_stores/delicacies_stores"
   ],
   "window": {
     "navigationStyle": "custom"

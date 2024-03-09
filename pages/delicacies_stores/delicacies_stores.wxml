@@ -1,0 +1,41 @@
+<!--pages/delicacies_stores/delicacies_stores.wxml-->
+<view class="navbar">
+  <navigator class="left-icon" open-type="navigateBack">
+    <image class="icon" src="/image/icon/back.png"></image>
+  </navigator>
+  <navigator class="right-icon" url="/pages/index/index">
+    <image class="icon" src="/image/icon/home.png"></image>
+  </navigator>
+</view>
+
+<scroll-view class="container" scroll-y>
+  
+  <view class='sen'>
+    <text class='t1'>Best cuisine in Guangzhou; nice</text>
+    <text class='t1'>cooking from Fengcheng.</text>
+  </view>
+
+  <view class="menu">
+    <text class="t2">美食 </text>
+    <text class="t2-2">Food</text>
+    <text class="t3"> > </text>
+    <text class="t2">店铺 </text>
+    <text class="t2-2">store</text>
+  </view>
+
+  <view class="show">
+
+    <view class="s1" wx:for="{{storeList}}" wx:key="id">
+      <image src="{{item.image}}" class='s1-i1'></image>
+      <text class='s1-t1'>{{item.name}}</text>
+      <view class='s1-c'>
+        <text class='s1-t2' style="font-size: 25rpx;">⭐</text>
+        <text class='s1-t2'> {{item.score}} </text>
+        <text class='s1-t3'> | </text>
+        <text class='s1-t2'> {{item.cost}}rmb</text>
+      </view>
+    </view>
+    
+  </view>
+</scroll-view>
+

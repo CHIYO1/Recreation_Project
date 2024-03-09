@@ -1,19 +1,4 @@
 /* pages/Attractions_ex/Attractions_ex.wxss */
-.navbar {
-  display: flex;
-  align-items: center;
-  height: 70px;
-  background-color: #fafafa;
-}
-.left-icon {
-  display: flex;
-  align-items: center;
-}
-.icon {
-  width: 30px;
-  height: 30px;
-  margin-right: 10px;
-}
 
 .container{
   padding-top: 18%;

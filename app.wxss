@@ -9,3 +9,29 @@
   box-sizing: border-box;
 } 
 
+.navbar {
+  display: flex;
+  align-items: center;
+  height: 160rpx; 
+  background-color: #2b2a2a; 
+}
+.left-icon {
+  width: 35px; 
+  display: flex;
+  align-items: center;
+}
+.right-icon {
+  display: flex;
+  align-items: center;
+}
+
+.right-icon image{
+  width: 45px; 
+  height: 45px; 
+  margin-top: 45rpx;
+}
+.icon {
+  width: 100%; 
+  height: 40px;  
+  margin-top: 30rpx;
+}

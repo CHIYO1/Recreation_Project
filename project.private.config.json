@@ -9,6 +9,13 @@
       "list": [
         {
           "name": "",
+          "pathName": "pages/delicacies_stores/delicacies_stores",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
           "pathName": "pages/delicacies/delicacies",
           "query": "",
           "launchMode": "default",

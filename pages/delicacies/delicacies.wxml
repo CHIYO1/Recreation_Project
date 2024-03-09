@@ -1,9 +1,9 @@
 <view class="navbar">
   <navigator class="left-icon" open-type="navigateBack">
-    <image class="icon" src="/image/icon/back.jpg"></image>
+    <image class="icon" src="/image/icon/back.png"></image>
   </navigator>
   <navigator class="right-icon" url="/pages/index/index">
-    <image class="icon" src="/image/icon/home.jpg"></image>
+    <image class="icon" src="/image/icon/home.png"></image>
   </navigator>
 </view>
 <view class="bg">
@@ -16,25 +16,25 @@
 
 <scroll-view class='container_scroll' scroll-x>
   <view class='c'>
-    <navigator class='food' url='/pages/delicacies_ex/delicacies_ex'>
+    <view class='food' data-type="Morning_Tea" bindtap="navigateToDetail">
       <image  class='f_images' src='/image/food_images/Morning_Tea.png'></image>
       <view class='t-tab'><text class='f-t-1'>Food</text></view>
       <text class='f-t-2'>早茶</text>
       <text class='f-t-3'>Morning Tea</text>
-    </navigator>
-    <navigator class='food' url='/pages/delicacies_ex/delicacies_ex'>
+    </view>
+    <view class='food' data-type="siroin" bindtap="navigateToDetail">
       <image  class='f_images' src='/image/food_images/siroin.png'></image>
       <view class='t-tab-2'><text class='f-t-4'>Food</text></view>
       <text class='f-t-2'>牛腩</text>
       <text class='f-t-3'>siroin</text>
-    </navigator>
-    <navigator class='food' url='/pages/delicacies_ex/delicacies_ex'>
+    </view>
+    <view class='food' data-type="wax" bindtap="navigateToDetail">
       <image  class='f_images' src='/image/food_images/roasted_wax.png'></image>
       <view class='t-tab'><text class='f-t-1'>Food</text></view>
       <text class='f-t-2'>广式烧腊</text>
       <text class='f-t-3'>Cantonese style</text>
       <text class='f-t-3'>roasted wax</text>
-    </navigator>
+    </view>
   </view>
 </scroll-view>
 

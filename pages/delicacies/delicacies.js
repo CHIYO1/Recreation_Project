@@ -1,6 +1,16 @@
 // pages/delicacies/delicacies.js
 Page({
 
+  navigateToDetail(event) {
+    const type = event.currentTarget.dataset.type; 
+    wx.navigateTo({
+      url: `/pages/delicacies_stores/delicacies_stores?type=${type}`, 
+    });
+  },
+
+
+
+
   /**
    * 页面的初始数据
    */

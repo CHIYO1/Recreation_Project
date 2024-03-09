@@ -1,10 +1,10 @@
 <!--pages/delicacies_ex/delicacies_ex.wxml-->
 <view class="navbar">
   <navigator class="left-icon" open-type="navigateBack">
-    <image class="icon" src="/image/icon/back.jpg"></image>
+    <image class="icon" src="/image/icon/back.png"></image>
   </navigator>
   <navigator class="right-icon" url="/pages/index/index">
-    <image class="icon" src="/image/icon/home.jpg"></image>
+    <image class="icon" src="/image/icon/home.png"></image>
   </navigator>
 </view>
 
