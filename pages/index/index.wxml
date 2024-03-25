@@ -12,13 +12,13 @@
       <view class='navi'>
         <navigator url="/pages/Attractions/Attractions">
           <view class="n1">
-            <text class="tt">Living From</text>
+            <text class="tt">Living</text>
             <view class='ww'>
               <text class='w'>景</text>
               <text class='w'>点</text>
             </view>
             
-            <text class="tt">Going to</text>
+            <text class="tt">Going</text>
           </view>
         </navigator>
         <navigator url="/pages/delicacies/delicacies">

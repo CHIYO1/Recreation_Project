@@ -23,7 +23,7 @@
     </view>
 
     
-    <text class='info-t3'>电话 phone number: {{storeDetail.phone}}</text>
+    <text class='info-t3'>电话: {{storeDetail.phone}}</text>
     <view class='add'>
       <text class='info-t3'>店铺地址：</text>
       <view class='add-text'>

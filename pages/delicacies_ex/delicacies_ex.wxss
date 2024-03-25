@@ -118,11 +118,12 @@
 }
 
 .user-name{
-  color: #162547;
-  font-size: 25rpx;
+  color: #ffffff;
+  font-size: 38rpx;
+  font-weight: bold;
 }
 
 .com-t{
-  color: #162547;
-  font-size: 35rpx;
+  color: #ffffff;
+  font-size: 32rpx;
 }

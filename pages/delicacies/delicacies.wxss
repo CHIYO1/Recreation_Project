@@ -87,13 +87,14 @@
 }
 
 .f-t-2{
-  margin-left: 20rpx;
+  margin-left: 30rpx;
   font-family:fantasy;
+  font-size: 35rpx;
   color: #7f7f7f;
 }
 
 .f-t-3{
-  margin-left: 20rpx;
+  margin-left: 30rpx;
   font-family:fantasy;
   color: #7f7f7f;
   font-size: 32rpx;
