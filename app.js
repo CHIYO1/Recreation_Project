@@ -674,177 +674,177 @@ App({
   Comments:[
     {
       "username": "夏莲",
-      "avatar": "/image/avatar/1.png",
+      "avatar": "/image/avatar/1.jpg",
       "comment": "老板挺好说话的，服务态度也挺好的"
   },
   {
       "username": "北欧",
-      "avatar": "/image/avatar/2.png",
+      "avatar": "/image/avatar/2.jpg",
       "comment": "终于来吃了，之前一直想来"
   },
   {
       "username": "小兔",
-      "avatar": "/image/avatar/3.png",
+      "avatar": "/image/avatar/3.jpg",
       "comment": "点评上的高分店铺，过来打卡一下。"
   },
   {
       "username": "蓝梦",
-      "avatar": "/image/avatar/4.png",
+      "avatar": "/image/avatar/4.jpg",
       "comment": "若将今天最差的餐馆出品秒送秦朝，一定会获五星好评"
   },
   {
       "username": "秋翠",
-      "avatar": "/image/avatar/5.png",
+      "avatar": "/image/avatar/5.jpg",
       "comment": "主动热情，服务细致"
   },
   {
       "username": "小羊",
-      "avatar": "/image/avatar/6.png",
+      "avatar": "/image/avatar/6.jpg",
       "comment": "可能算半个网红店？有络绎不绝的游客前来打卡。"
   },
   {
       "username": "天赐",
-      "avatar": "/image/avatar/7.png",
+      "avatar": "/image/avatar/7.jpg",
       "comment": "味道还是不错的，附近的话可以来试试"
   },
   {
       "username": "瑶儿",
-      "avatar": "/image/avatar/8.png",
+      "avatar": "/image/avatar/8.jpg",
       "comment": "环境:干净舒服，大厅都坐满了，我们来到刚好有一桌走"
   },
   {
       "username": "琳琅",
-      "avatar": "/image/avatar/9.png",
+      "avatar": "/image/avatar/9.jpg",
       "comment": "性价比很高的一顿～"
   },
   {
       "username": "唯梦",
-      "avatar": "/image/avatar/10.png",
+      "avatar": "/image/avatar/10.jpg",
       "comment": "在广州这家餐厅算是比较高级的了，环境很赞"
   },
    {
         "username": "静心",
-        "avatar": "/image/avatar/11.png",
+        "avatar": "/image/avatar/11.jpg",
         "comment": "环境大气，位置优越，服务一流，菜品欠佳！"
     },
     {
         "username": "明心",
-        "avatar": "/image/avatar/12.png",
+        "avatar": "/image/avatar/12.jpg",
         "comment": "老广特别认可哒一家店，我们去的时候已经基本卖光了"
     },
     {
         "username": "鸿雁",
-        "avatar": "/image/avatar/13.png",
+        "avatar": "/image/avatar/13.jpg",
         "comment": "真挺喜欢这家店的，路过看到在排队，结果次日人更多"
     },
     {
         "username": "明月",
-        "avatar": "/image/avatar/14.png",
+        "avatar": "/image/avatar/14.jpg",
         "comment": "吃的人挺多的，上菜也算快"
     },
     {
         "username": "翠儿",
-        "avatar": "/image/avatar/15.png",
+        "avatar": "/image/avatar/15.jpg",
         "comment": "店铺不大，生意出奇的好。"
     },
     {
         "username": "如梦",
-        "avatar": "/image/avatar/16.png",
+        "avatar": "/image/avatar/16.jpg",
         "comment": "看起来评分不错，进去能点的都点了一遍，味道还算不错"
     },
     {
         "username": "梦幻",
-        "avatar": "/image/avatar/17.png",
+        "avatar": "/image/avatar/17.jpg",
         "comment": "这家店，必须大力推荐，毕竟因为他家好吃，"
     },
     {
         "username": "明珠",
-        "avatar": "/image/avatar/18.png",
+        "avatar": "/image/avatar/18.jpg",
         "comment": "慕名而来"
     },
     {
         "username": "静思",
-        "avatar": "/image/avatar/19.png",
+        "avatar": "/image/avatar/19.jpg",
         "comment": "店内环境非常不错，干净宽敞"
     },
     {
         "username": "小川",
-        "avatar": "/image/avatar/20.png",
+        "avatar": "/image/avatar/20.jpg",
         "comment": "服务员服务非常细致，态度温和。"
     },
     {
       "username": "小鹤",
-      "avatar": "/image/avatar/21.png",
+      "avatar": "/image/avatar/21.jpg",
       "comment": "本次用餐稍稍有点不太顺利哈，也许是时间不对的问题"
   },
   {
       "username": "阳光",
-      "avatar": "/image/avatar/22.png",
+      "avatar": "/image/avatar/22.jpg",
       "comment": "非常非常好吃，怎么能这么好吃！"
   },
   {
       "username": "小雪",
-      "avatar": "/image/avatar/23.png",
+      "avatar": "/image/avatar/23.jpg",
       "comment": "份量是挺足的,但味道只能说是中规中矩吧。"
   },
   {
       "username": "小燕",
-      "avatar": "/image/avatar/24.png",
+      "avatar": "/image/avatar/24.jpg",
       "comment": "环境还行，就是位置太紧迫了，多个人坐着都走不动道。"
   },
   {
       "username": "飞鸟",
-      "avatar": "/image/avatar/25.png",
+      "avatar": "/image/avatar/25.jpg",
       "comment": "收藏了很久的店铺，终于有机会晚上到这个店铺。"
   },
   {
         "username": "小食神",
-        "avatar": "/image/avatar/26.png",
+        "avatar": "/image/avatar/26.jpg",
         "comment": "菜品口味不错，让人回味无穷。"
     },
     {
         "username": "吃货小王子",
-        "avatar": "/image/avatar/27.png",
+        "avatar": "/image/avatar/27.jpg",
         "comment": "终于品尝到了美味，回味无穷。"
     },
     {
         "username": "味蕾之旅",
-        "avatar": "/image/avatar/28.png",
+        "avatar": "/image/avatar/28.jpg",
         "comment": "高分店铺名不虚传，值得打卡。"
     },
     {
         "username": "美食小懒猫",
-        "avatar": "/image/avatar/29.png",
+        "avatar": "/image/avatar/29.jpg",
         "comment": "口味独特，让人大饱口福。"
     },
     {
         "username": "食客小哥哥",
-        "avatar": "/image/avatar/30.png",
+        "avatar": "/image/avatar/30.jpg",
         "comment": "服务热情周到，让人感到宾至如归。"
     },
     {
         "username": "小吃骑士",
-        "avatar": "/image/avatar/31.png",
+        "avatar": "/image/avatar/31.jpg",
         "comment": "环境优美，是一家具有特色的网红店。"
     },
     {
         "username": "吃货小公主",
-        "avatar": "/image/avatar/32.png",
+        "avatar": "/image/avatar/32.jpg",
         "comment": "味道可口，是一处不可多得的美食天堂。"
     },
     {
         "username": "美食小懒虫",
-        "avatar": "/image/avatar/33.png",
+        "avatar": "/image/avatar/33.jpg",
         "comment": "性价比很高，物超所值，值得推荐。"
     },
     {
         "username": "美食小王子",
-        "avatar": "/image/avatar/34.png",
+        "avatar": "/image/avatar/34.jpg",
         "comment": "菜品新鲜，环境舒适，是一家不容错过的美食店。"
     },
     {
         "username": "味蕾小公举",
-        "avatar": "/image/avatar/35.png",
+        "avatar": "/image/avatar/35.jpg",
         "comment": "菜品丰富，服务周到，是一处美食的天堂。"
     },
   ]
