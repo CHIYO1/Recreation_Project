@@ -1,64 +1,180 @@
-/* pages/Attractions_ex/Attractions_ex.wxss */
+
 
 .container{
-  padding-top: 18%;
-  height:650px;
+  padding: 0%;
+  height:500px;
   width:100%;
-  background-color: rgb(241, 239, 235);
+  font-family: 'Times New Roman', Times, serif;
 }
 
-.ima1{
-  height: 350rpx;
-  object-fit: contain;
+.swiper_container {
+  height: 300px;
+  width: 100%;
+  position: relative;
+  
 }
 
-.c1-2{
+.main{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  border-radius: 25px;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 1));
+}
+
+
+.ph{
+  height: 400rpx;
+  margin-top: 2%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.ph-ima{
+  height: 100%;
+  width: 100%;
+  border-radius: 10%;
+}
+
+.info{
   display: flex;
   flex-direction: column;
-  padding: 2%;
+  margin-top: 4%;
+  margin-left: 3%;
+  width: 320px;
+  border-radius: 25px;
+  top: 5%;
 }
 
-.t1{
-  font-size: 70rpx;
+.comments{
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+  margin-top: 7%;
+  justify-content: center;
 }
 
-.t2{
-  font-family:‘Courier New’, Courier, monospace;
-  font-size:35rpx;
-  color: #545454;
-  padding-top: 1%;
+.comments-item{
+  background-color: #93a1bc;
+  width: 290px;
+  height: 180rpx;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 7%;
+  border-radius: 40rpx;
+  align-items: center;
 }
 
-.t3{
-  font-family:‘Courier New’, Courier, monospace;
-  font-size:35rpx;
-  color: #545454;
-  padding-top: 2%;
+.com-im{
+  height: 100rpx;
+  width: 140rpx;
+  margin-left: 3%;
+  margin-right: 5%;
+  border-radius: 40rpx;
 }
 
-.c2{
-  padding: 2%;
+.user{
+  display: flex;
+  flex-direction: column;
+  height: 120rpx;
+  width: 450rpx;
 }
 
-.t4{
-  font-size: 45rpx;
+.user-name{
+  color: #ffffff;
+  font-size: 35rpx;
+  margin-top: -3%;
 }
 
-.c2-1{
-  padding-top: 3%;
-  background-color: rgb(255, 253, 250);
-  border-top: 1px solid #ccc;
-  border-left: 1px solid #ccc;
-  border-right:1px solid #ccc;
+.com-t{
+  color: #ffffff;
+  font-size: 35rpx;
 }
 
-.c2-1-1{
-  padding: 2%;
-  border-bottom: 1px solid #ccc;
+.info-address {
+  background-color: #2f81ed34;
+  width: 300px;
+  height: 50px;
+  border-radius: 50px;
+  
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  text-align: left;
+}
+.info-number {
+  margin-top: 3%;
+  background-color: #2f81ed34;
+  width: 130px;
+  height: 30px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
 }
 
-.t5{
-  font-family:‘Courier New’, Courier, monospace;
-  font-size:37rpx;
-  color: #252525;
+
+
+.wx-swiper-dots.wx-swiper-dots-horizontal{
+  margin-bottom: 320rpx;
+}
+
+
+.info-t1 {
+  font-size: 25px;
+}
+
+.info-t2 {
+  font-size: 15px;
+}
+
+
+.info-t4 {
+  margin-left: 3%;
+}
+
+
+
+
+.parent {
+  position: relative;
+}
+
+swiper {
+  height: 400rpx;
+}
+
+swiper-item view {
+  height: 100%;
+}
+
+
+.dots {
+  position: absolute;
+  bottom: 30rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.dots view {
+  width: 10rpx;
+  height: 10rpx;
+  margin: 0 6rpx;
+  border-radius: 10rpx;
+  background-color: #fff;
+}
+
+.dots .active {
+  width: 20rpx;
+  height: 20rpx;
+  background-color: rgba(255, 255, 255, 1);
 }
