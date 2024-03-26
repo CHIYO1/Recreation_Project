@@ -1,6 +1,13 @@
 // pages/Attractions/Attractions.js
 Page({
 
+  navigateToDetail(event) {
+    const type = event.currentTarget.dataset.type; 
+    wx.navigateTo({
+      url: `/pages/Attractions_list/Attractions_list?type=${type}`, 
+    });
+  },
+
   /**
    * 页面的初始数据
    */
@@ -20,72 +27,7 @@ Page({
     wx.navigateBack()
   },
 
-  // 区域间切换
-  gototh() {
-    wx.navigateTo({
-      url: '/pages/Attractions/Attractions',
-    })
-  },
-
-  gotohp() {
-    wx.navigateTo({
-      url: '/pages/area/hp/hp',
-    })
-  },
-
-  gotoys() {
-    wx.navigateTo({
-      url: '/pages/area/ys/ys',
-    })
-  },
-
-  gotopy() {
-    wx.navigateTo({
-      url: '/pages/area/py/py',
-    })
-  },
-
-  gotohz() {
-    wx.navigateTo({
-      url: '/pages/area/hz/hz',
-    })
-  },
-
-  gotoby() {
-    wx.navigateTo({
-      url: '/pages/area/by/by',
-    })
-  },
-
-  gotons() {
-    wx.navigateTo({
-      url: '/pages/area/ns/ns',
-    })
-  },
-
-  gotohd() {
-    wx.navigateTo({
-      url: '/pages/area/hd/hd',
-    })
-  },
-
-  gotozc() {
-    wx.navigateTo({
-      url: '/pages/area/zc/zc',
-    })
-  },
-
-  gotolw() {
-    wx.navigateTo({
-      url: '/pages/area/lw/lw',
-    })
-  },
-
-  gotoch() {
-    wx.navigateTo({
-      url: '/pages/area/ch/ch',
-    })
-  },
+  
   // 区域详细景点跳转
   thLnyxy() {
     wx.navigateTo({
