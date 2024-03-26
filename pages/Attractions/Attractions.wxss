@@ -1,38 +1,77 @@
+<view class="navbar">
+  <navigator class="left-icon" open-type="navigateBack">
+    <image class="icon" src="/image/icon/back.png"/>
+  </navigator>
+  <navigator class="right-icon" url="/pages/index/index">
+    <image class="icon" src="/image/icon/home.png"/>
+  </navigator>
+</view>
 
+<view class="container">
+  <image class="img" src="/image/attract_list/bg.jpg"/>
+  
+  <view class="show">
+    <scroll-view class='containerAll' scroll-x>
+  <view class='a'>
+    <view class='attract' data-type="tianhe" bindtap="navigateToDetail">
+      <image class='a_images' src='/image/attract_list/tianhe.jpg'></image>
+      <view class='a-t'><text>天河区</text></view>
+    </view>
+    <view class='attract' data-type="huangpu" bindtap="navigateToDetail">
+      <image class='a_images' src='/image/attract_list/huangpu.png'></image>
+      <view class='a-t'><text>黄浦区</text></view>
+    </view>
+    <view class='attract' data-type="yuexiu" bindtap="navigateToDetail">
+      <image class='a_images' src='/image/attract_list/yuexiu.jpg'></image>
+      <view class='a-t'><text>越秀区</text></view>
+    </view>
+    <view class='attract' data-type="panyu" bindtap="navigateToDetail">
+      <image class='a_images' src='/image/attract_list/panyu.png'></image>
+      <view class='a-t'><text>番禺区</text></view>
+    </view>
+  </view>
+  </scroll-view>
 
-.container1 view {
-  width: 60px;
-  height: 20px;
-  text-align: center;
-  line-height: 20px;
-  display: inline-block;
-}
-.container1 {
-  white-space: nowrap;
-  display: flex;
-  justify-content: space-around;
-}
-.container1 view:nth-child(1) {
-  background-color: rgba(29, 138, 56, 0.582);
-}
+  <scroll-view class='containerAll' scroll-x>
+    <view class='a'>
+      <view class='attract' data-type="haizhu" bindtap="navigateToDetail">
+        <image class='a_images' src='/image/attract_list/haizhu.jpg'></image>
+        <view class='a-t'><text>海珠区</text></view>
+      </view>
+      <view class='attract' data-type="baiyun" bindtap="navigateToDetail">
+        <image class='a_images' src='/image/attract_list/baiyun.jpg'></image>
+        <view class='a-t'><text>白云区</text></view>
+      </view>
+      <view class='container_text'>
+        <image class='bg' src='/image/attract_list/textbg.jpg'></image>
+      </view>
+      <view class='attract' data-type="nansha" bindtap="navigateToDetail">
+        <image class='a_images' src='/image/attract_list/nansha.jpg'></image>
+        <view class='a-t'><text>南沙区</text></view>
+      </view>
+    </view>
+  </scroll-view>
 
-.container2 {
-  width: 130px;
-  height: 130px;
-}
+  <scroll-view class='containerAll' scroll-x>
+    <view class='a'>
+      <view class='attract' data-type="huadu" bindtap="navigateToDetail">
+        <image class='a_images' src='/image/attract_list/huadu.jpg'></image>
+        <view class='a-t'><text>花都区</text></view>
+      </view>
+      <view class='attract' data-type="zencheng" bindtap="navigateToDetail">
+        <image class='a_images' src='/image/attract_list/zencheng.jpg'></image>
+        <view class='a-t'><text>增城区</text></view>
+      </view>
+      <view class='attract' data-type="liwan" bindtap="navigateToDetail">
+        <image class='a_images' src='/image/attract_list/liwan.jpg'></image>
+        <view class='a-t'><text>荔湾区</text></view>
+      </view>
+      <view class='attract' data-type="conghua" bindtap="navigateToDetail">
+        <image class='a_images' src='/image/attract_list/conghua.jpg'></image>
+        <view class='a-t'><text>从化区</text></view>
+      </view>
+    </view>
+  </scroll-view>
+  </view>
+</view>
 
-.containerA {
-  width: 300px;
-  height: 130px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  border: 1px solid black;
-}
-
-
-.containerS {
-  /* display: inline-block; */
-  height: 470px;
-  width: 310px;
-}
