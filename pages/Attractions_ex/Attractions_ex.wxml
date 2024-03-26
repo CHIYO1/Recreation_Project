@@ -8,23 +8,59 @@
   </navigator>
 </view>
 
-<scroll-view class="container" scroll-y >
+<scroll-view class='container' scroll-y>
 
-  <view class="c1">
-    <image class="ima1" src="/image/3.jpg"></image>
-    <view class="c1-2">
-      <text class="t1">岭南印象园</text>
-      <text class="t2">开园时间:</text>
-      <text class="t3">备注：XXXXXXXX</text>
-    </view>
+  <view class="parent">
+  <!-- 轮播图 -->
+  <swiper bindchange="monitorCurrent" indicator-dots="{{false}}" circular="true" current="{{current}}" autoplay>
+    <block wx:for="{{attractDetail.img}}" wx:key="*this">
+      <swiper-item>
+        <image src="{{item.name}}"/>
+      </swiper-item>
+    </block>
+  </swiper>
+  <!-- 自定义轮播图进度点 -->
+  <view class="dots">
+    <block wx:for="{{attractDetail.img}}" wx:for-index="index" wx:key="*this">
+      <view class="{{current==index?'active':''}}"></view>
+    </block>
   </view>
-  <view class="c2">
-    <text class="t4">评价</text>
-    <view class="c2-1">
-      <view class="c2-1-1" wx:for="{{evaluation}}">
-        <text class="t5">{{item}}</text>
+</view>
+
+
+
+
+
+<view class="main">
+
+  <view class="info">
+  <text class="info-t1">{{attractDetail.name}}</text>
+  <view class="info-v">
+    <text class="info-t2">{{attractDetail.score}}.0</text>
+    <text class="info-t2"> | </text>
+    <text class="info-t2">{{attractDetail.type}}</text>
+  </view>
+  <view class="info-v">
+    <text class="info-t3">营业时间：</text>
+    <text class="info-t3">{{attractDetail.time}}</text>
+  </view>
+  <view class="info-address">
+    <text class="info-t4">地址：{{attractDetail.address}}</text>
+  </view>
+  <view class="info-number">
+    <text class="info-t4">电话：{{attractDetail.tel}}</text>
+  </view>
+</view>
+
+  <view class='comments'>
+    <view wx:for="{{comments}}" wx:key="index" class='comments-item'>
+      <image class="com-im" src='{{item.avatar}}' mode="aspectFill"></image>
+      <view class='user'>
+        <text class='user-name'>{{item.username}}</text>
+        <text class='com-t'>{{item.comment}}</text>
       </view>
     </view>
   </view>
+</view>
 
 </scroll-view>
