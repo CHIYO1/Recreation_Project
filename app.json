@@ -6,17 +6,8 @@
     "pages/ch/ch",
     "pages/Attractions_ex/Attractions_ex",
     "pages/delicacies_ex/delicacies_ex",
-    "pages/area/hp/hp",
-    "pages/area/yx/yx",
-    "pages/area/py/py",
-    "pages/area/hz/hz",
-    "pages/area/by/by",
-    "pages/area/ns/ns",
-    "pages/area/hd/hd",
-    "pages/area/zc/zc",
-    "pages/area/lw/lw",
-    "pages/area/ch/ch",
-    "pages/delicacies_stores/delicacies_stores"
+    "pages/delicacies_stores/delicacies_stores",
+    "pages/Attractions_list/Attractions_list"
   ],
   "window": {
     "navigationStyle": "custom"
