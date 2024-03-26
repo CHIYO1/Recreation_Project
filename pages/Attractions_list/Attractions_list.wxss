@@ -1,0 +1,88 @@
+/* pages/Attractions_list/Attractions_list.wxss */
+.title {
+  color: rgb(250, 250, 250);
+  margin-top: 5%;
+  margin-left: 18%;
+}
+
+.container{
+  padding: 0%;
+  height:500px;
+  width:100%;
+  background-color: #0b1d26;
+}
+
+.show{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 40%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.a1{
+  height: 270rpx;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-bottom: 0%;
+  display:flex;
+  margin-bottom: 2%;
+  height: 150px;
+  width: 400px;
+}
+
+.a1-t {
+  width: 420rpx;
+  height: 250rpx;
+}
+
+.a1-i1{
+  height: 250rpx;
+  width: 210rpx;
+  margin-bottom: 6%;
+  margin-left: 5%;
+}
+.a1-i2{
+  height: 250rpx;
+  width: 210rpx;
+  margin-bottom: 6%;
+}
+
+.a1-zs {
+  color: #a98a54;
+  margin-left: 25%;
+  margin-top: -18%;
+}
+.a1-t1 {
+  font-size:11px;
+  margin-left: 25%;
+  color: white;
+  margin-top: 2%;
+}
+
+.a1-t2 {
+  font-size:45px;
+  color: white;
+  margin-left: 10%;
+  opacity: 0.2;
+  font-weight: 1000;
+}
+
+.a1-t5 {
+  font-size:7px;
+  margin-left: 20%;
+  color: #a98a54;
+}
+
+.a1-bg {
+  width: 100%;
+  height: 350px;
+  position: relative;
+}
+
