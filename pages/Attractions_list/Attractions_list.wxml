@@ -1,0 +1,37 @@
+<view class="navbar">
+  <navigator class="left-icon" open-type="navigateBack">
+    <image class="icon" src="/image/icon/back.png"/>
+  </navigator>
+  <navigator class="right-icon" url="/pages/index/index">
+    <image class="icon" src="/image/icon/home.png"/>
+  </navigator>
+  <view class="title">{{name[type]}}</view>
+</view>
+
+<scroll-view class="container" scroll-y>
+
+  <image class="a1-bg" src="/image/attract_list/attractListbg.jpg" />
+  <view class="show">
+
+    <view class="a1" wx:for="{{attractList}}" wx:key="id" bindtap="goToDetail" data-id="{{item.id}}">
+      <image src="{{item.img1}}" class='a1-i1' wx:if="{{item.id % 2 === 0}}"></image>
+      <view class="a1-t">
+        <view wx:if="{{item.id <= 9}}">
+          <text class="a1-t2">0{{item.id}}</text>
+          <view class='a1-zs'><text>___</text></view>
+          </view>
+        <view wx:if="{{item.id > 9}}">
+          <text class="a1-t2">{{item.id}}</text>
+          <view class='a1-zs'><text>___</text></view></view>
+
+        
+        <view class='a1-t1'><text>{{item.name}}</text></view>
+        <view class="a1-tt">
+          <text class="a1-t5">营业时间：{{item.time}}</text>
+        </view>
+      </view>
+      <image src="{{item.img1}}" class='a1-i2' wx:if="{{item.id % 2 === 1}}"></image>
+    </view>
+    
+  </view>
+</scroll-view>
