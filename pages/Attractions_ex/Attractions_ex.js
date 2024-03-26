@@ -1,22 +1,25 @@
 // pages/Attractions_ex/Attractions_ex.js
+const app = getApp();
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    evaluation:[
-      "我觉得这里就是打卡拍照的地方，范围真的不大",
-      "要我说那里的捞小鱼就挺好玩的",
-      "在大学城一直没去，门票贵",
-      "小学到高中学校旅游来左无数次",
-      "我要玩原神",
-      "国家AAAA级旅游景区，位于广州市大学城外环西路，门票价60元人民币",
-      "感受岭南文化的去处有很多，但岭南印象园则是位数不多的全面了解岭南文化的去处之一",
-      "曾计划过多次来这里，只有这次成行了，很多景区买票可以手机支付，但在这里不支持，只好在隔壁游客服务中心兑换成纸币然后购票。",
-      "龙光龙湖双龙天著，这个好，交通方便，"
-    ]
+    attractDetail: {}, // 存放店铺详情数据
+    comments: [] ,// 存放评论数据
+    current: 0,
   },
+
+
+//监听轮播图的下标
+monitorCurrent: function (e) {
+  // console.log(e.detail.current)
+  let current = e.detail.current;
+  this.setData({
+    current: current
+  })
+},
 
   goback() {
     wx.navigateBack()
@@ -26,8 +29,27 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
+    console.log("传递的参数:", options);
 
+    const type = options.type;
+    const id = options.id;
+    const attract = app.attract_detail;
+
+    // 根据传入的类别和ID获取对应的店铺详情数据
+    const selectedStore = attract[type].find(item => item.id == id);
+    if (selectedStore) {
+      this.setData({
+        attractDetail: selectedStore
+      });
+    } else {
+      console.error("Invalid store type or ID");
+    }
+
+    this.setData({
+      comments: app.attract_Comments
+    });
   },
+
 
   /**
    * 生命周期函数--监听页面初次渲染完成
